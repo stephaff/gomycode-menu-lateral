@@ -1,0 +1,54 @@
+.menu{
+    width: 280px;
+    padding: 2.5rem 0rem 2.5rem 0.5rem;
+    border-right: 0.5rem solid red;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: brown;
+    transition: linear 0.3s;
+}
+.lien{
+    display: block;
+    height: 60px;
+    color: #fff;
+    font-size: 22px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.lien:hover{    
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+}
+.lien-texte{
+    margin-left: 2rem;
+    transition: linear 0.3s;
+}
+.button-back{
+    position: relative;
+    top: 1rem;
+    left: 13rem;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e24666;
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+.icon{
+    font-size: 24px;
+}
+.replier{
+    width: 60px;
+}
+.cacher{
+    display: none;
+}
+.position-bouton{
+    left: 0.5rem;
+    transform: rotate(180deg);
+}
