@@ -6,6 +6,7 @@
     border-bottom-left-radius: 20px;
     background-color: brown;
     transition: linear 0.3s;
+    overflow: hidden;
 }
 .lien{
     display: block;
@@ -45,8 +46,10 @@
 .replier{
     width: 60px;
 }
-.cacher{
-    display: none;
+.colorDeFond{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;;
 }
 .position-bouton{
     left: 0.5rem;
