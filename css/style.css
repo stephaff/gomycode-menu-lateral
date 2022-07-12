@@ -18,11 +18,11 @@
     align-items: center;
     text-decoration: none;
 }
-.lien:hover{    
+/* .lien:hover{    
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: red;
-}
+} */
 .lien-texte{
     margin-left: 2rem;
     transition: linear 0.3s;
